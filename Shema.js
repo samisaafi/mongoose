@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 
-const contactSchema = mongoose.Schema({
+const personSchema = mongoose.Schema({
 name:String,
 lastname:String,
 age:Number,
 favoriteFoods:[String]
 })
-module.exports = mongoose.model('contactSchema',contactSchema)
+module.exports = mongoose.model('personSchema',personSchema)
